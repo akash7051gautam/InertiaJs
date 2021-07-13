@@ -1178,6 +1178,9 @@ select {
 .mb-4 {
 	margin-bottom: 1rem;
 }
+.-mt-px {
+	margin-top: -1px;
+}
 .-mb-1 {
 	margin-bottom: -0.25rem;
 }
@@ -1186,9 +1189,6 @@ select {
 }
 .mb-1 {
 	margin-bottom: 0.25rem;
-}
-.-mt-px {
-	margin-top: -1px;
 }
 .mb-2 {
 	margin-bottom: 0.5rem;
@@ -1475,11 +1475,11 @@ select {
 .border-b {
 	border-bottom-width: 1px;
 }
-.border-t-4 {
-	border-top-width: 4px;
-}
 .border-r {
 	border-right-width: 1px;
+}
+.border-t-4 {
+	border-top-width: 4px;
 }
 .border-gray-300 {
 	--tw-border-opacity: 1;
